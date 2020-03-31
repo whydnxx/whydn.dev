@@ -1,0 +1,98 @@
+{
+  "title": "Wahyudin • Full Stack Developer",
+  "description": "Hello ! I am Wahyudin, Full Stack Developer. I design and code beutifully simple things, and I love what I do.",
+  "author": "Wahyudin",
+  "pages": {
+    "index": "Home",
+    "graphicdesign": "Graphic Design",
+    "404": "Error 404"
+  },
+  "nav": {
+    "work": "Pekerjaan",
+    "about": "Tentang Saya",
+    "contact": "Hubungi Saya"
+  },
+  "graphicdesign": {
+    "intro": "Selection of my works as a Graphic Designer"
+  },
+  "hero": {
+    "job_hi": "Halo ! Nama saya",
+    "job_dev": "Full Stack Developer",
+    "job_description": "I design and code beautifully simple things, and I love what I do."
+  },
+  "work": {
+    "work_title": "My Recent Work",
+    "work_description": "Here a few projects I've been worked on recently."
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "Hello ! I'm Wahyudin, Full Stack Developer based in Jakarta (Indonesia). I'm a man who thirsts for curiosity and problem solvers in third of night. I am very passionate and dedicated to my work. And enjoy working in a team or individual.",
+    "presentation": "Passionate about design and front-end web development, I am committed to carrying out the opportunities entrusted to me by building modern and effective solutions. Rigorous and demanding, I take care to respect the best practices and standards of the Web. Being also curious and open, I like to experiment with the latest trends through daily monitoring.",
+    "interests": {
+      "title": "My main interests",
+      "1": "UX/UI Design",
+      "2": "Maintainability",
+      "3": "Clean Code",
+      "4": "Performance",
+      "5": "Happy Face"
+    },
+    "personality": {
+      "title": "5 things about myself",
+      "1": "Responsive",
+      "2": "Adaptability",
+      "3": "Curious",
+      "4": "Hilarous",
+      "5": "A lot of fun"
+    }
+  },
+  "services": {
+    "design": {
+      "title": "Visual Design",
+      "desc": "Saya membuat desain situs web dan aplikasi Anda."
+    },
+    "integration": {
+      "title": "Integration",
+      "desc": "Saya mengusahakan integrasi web model Anda dalam Desain Responsif."
+    },
+    "development": {
+      "title": "Development",
+      "desc": "Saya mengembangkan kode dengan tangan hangat saya, dikembangkan dengan hati, mudah dirawat, kode bersih, dan praktik yang baik"
+    }
+  },
+  "stack": {
+    "title": "My actual stack",
+    "desc": "Here's the stack I'm currently working with etc.."
+  },
+  "contact": {
+    "title": "Get in touch",
+    "intro" : "Apakah Anda memiliki proyek pengembangan web, project atau hanya peluang untuk menawarkan kepada saya? Mari hubungi saya dan membahasnya bersama segelas kopi!"
+  },
+  "form": {
+    "firstname": "Nama Depan",
+    "lastname": "Nama Belakang",
+    "email": "Email",
+    "message": "Pesan",
+    "send": "Kirim"
+  },
+  "footer": {
+    "socialconnect": "Let's connect!",
+    "back_to_top": "Back to top"
+  },
+  "social": {
+    "twitter": "Go to my Twitter profile",
+    "github": "Go to my GitHub profile",
+    "linkedin": "Go to my LinkedIn profile",
+    "email": "Send a mail"
+  },
+  "notfound": {
+    "header": "Error 404",
+    "description": "Unfortunately, the page you are looking for does not exist :("
+  },
+  "global": {
+    "backtohome": "Back to Home",
+    "sendMail": "Get in touch",
+    "downloadResume": "My résumé",
+    "downloadResume2": "Download my résumé",
+    "resume": "#"
+  }
+}

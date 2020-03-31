@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  border: 1px solid red;
+} */
+
+:root {
+  --gray-800: #2d3748;
+  --primary-medium: #5285ff;
+  --secondary: #C7FF84;
+  --secondary_light: #E5FEC7;
+}
+
+
+/* LINKS */
+
+body {
+  @apply font-body;
+}
+
+a {
+  transition: all .3s;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  @apply font-header tracking-widy;
+}
+
+.light {
+  @apply text-primary;
+}
+
+.light:hover {
+  @apply text-gray-800;
+}
+
+
+/* TYPOGRAPHY */
+
+p {
+  @apply text-lg font-body tracking-widy;
+}
+
+@screen md {
+  p {
+    @apply text-xl;
+  }
+}
+
+.lang_active {
+  @apply font-bold;
+}
+
+.lang:last-child .separator {
+  @apply hidden;
+}
+
+
+/* ABOUT SECTION */
+
+.list li svg {
+  @apply inline mr-2 text-gray-500;
+}
+
+
+/* 404 PAGE */
+
+#triangle-code{
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-top : 17px solid #e2e8f0;
+  border-right : 10px solid transparent;
+  border-left : 10px solid transparent;
+ }
+
+
+/* SVG Settings */
+
+.avatar {
+  filter: drop-shadow(0px 5px 20px rgba(82, 133, 255, 0.4));
+}
+
+.about-icons {
+  fill: var(--gray-800);
+}
+
+
+/* TOOLTIP CUSTOM */
+
+.tooly {
+  font-size: 18px !important;
+  padding: 6px 12px !important;
+  border-radius: 0.25rem !important;
+  background-color: var(--gray-800) !important;
+}
+
+.tooly.place-bottom::after{
+  border-bottom-color: var(--gray-800) !important;
+}
+
+@screen dark {
+  .tooly {
+    background-color: white !important;
+    color: var(--gray-800) !important;
+  }
+  .tooly.place-bottom::after{
+    border-bottom-color: white !important;
+  }
+}
+
+
+/* DARK SETTINGS */
+
+@screen dark {
+  .dark {
+    @apply text-secondary;
+  }
+  .dark:hover {
+    @apply text-secondary_light;
+  }
+  .bgNenderoid {
+    fill: var(--secondary);
+  }
+  .about-icons {
+    fill: var(--secondary_light);
+  }
+  #triangle-code{
+    border-top : 17px solid white;
+   }
+}

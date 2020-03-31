@@ -1,0 +1,57 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Wahyudin <whydn.id@hotmail.com>",
+  "dependencies": {
+    "@svgr/webpack": "^4.3.3",
+    "gatsby": "^2.19.29",
+    "gatsby-image": "^2.2.31",
+    "gatsby-plugin-intl": "^0.3.3",
+    "gatsby-plugin-manifest": "^2.2.29",
+    "gatsby-plugin-offline": "^3.0.23",
+    "gatsby-plugin-postcss": "^2.1.14",
+    "gatsby-plugin-purgecss": "^4.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.14",
+    "gatsby-plugin-sharp": "^2.3.1",
+    "gatsby-plugin-svgr": "^2.0.2",
+    "gatsby-source-filesystem": "^2.1.36",
+    "gatsby-transformer-remark": "^2.6.36",
+    "gatsby-transformer-sharp": "^2.3.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0",
+    "react-obfuscate": "^3.6.2",
+    "react-tooltip": "^4.0.3",
+    "typeface-overpass": "0.0.72",
+    "typeface-work-sans": "0.0.72"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "build:svg": "svgr -d src/svg/ src/components/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
