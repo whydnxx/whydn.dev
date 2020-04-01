@@ -12,7 +12,7 @@ const GraphicDesign = () => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/(graphicdesign)/" } }
+        filter: { fileAbsolutePath: { regex: "/(graphicDesign)/" } }
         sort: { fields: frontmatter___order, order: ASC }
       ) {
         edges {
