@@ -74,7 +74,7 @@ const Form = () => {
       <div className="flex justify-center">
         <button
           type="submit"
-          className="px-12 py-2 mt-6 text-xl font-bold text-center text-white uppercase rounded-full cursor-pointer font-header bg-primary hover:bg-primary md:text-1xl dark:bg-secondary dark:text-secondary_dark dark:hover:bg-secondary_light shadow-md"
+          className="px-12 py-2 mt-6 text-xl font-bold text-center text-white uppercase rounded-full cursor-pointer font-header bg-primary hover:bg-primary md:text-1xl dark:bg-secondary dark:text-gray-900 dark:hover:bg-secondary_light shadow-md"
           aria-label="Send an email"
         >
           <FormattedMessage id="form.send" />

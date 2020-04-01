@@ -13,9 +13,9 @@ module.exports = {
         primary: "#5285FF",
         primary_light: "#8eb4ff",
         primary_dark: "#0059cb",
-        secondary: "#160267",
-        secondary_light: "#4d2d96",
-        secondary_dark: "#00003c",
+        secondary: "#C7FF84",
+        secondary_light: "#E5FEC7",
+        secondary_dark: "#94cc54",
       },
       screens: {
         dark: { raw: "(prefers-color-scheme: dark)" },
