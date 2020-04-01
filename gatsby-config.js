@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/",
   plugins: [
     {
       resolve: "gatsby-plugin-svgr",

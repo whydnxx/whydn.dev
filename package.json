@@ -31,6 +31,7 @@
     "typeface-work-sans": "0.0.72"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
     "tailwindcss": "^1.2.0"
   },
@@ -45,13 +46,14 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "build:svg": "svgr -d src/svg/ src/components/"
+    "build:svg": "svgr -d src/svg/ src/components/",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/whydn-dev/whydn-dev.github.io"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/whydn-dev/whydn-dev.github.io/issues"
   }
 }
