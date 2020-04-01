@@ -17,12 +17,12 @@ const Form = () => {
 
       <div className="flex flex-col md:flex-row">
         <div className={blockStyle + "w-full md:w-1/2 md:mr-6"}>
-          <label className={labelStyle} htmlFor="firstname">
-            <FormattedMessage id="form.firstname" />
+          <label className={labelStyle} htmlFor="firstName">
+            <FormattedMessage id="form.firstName" />
             <input
               type="text"
-              id="firstname"
-              name="firstname"
+              id="firstName"
+              name="firstName"
               className={inputStyle}
               placeholder="Jhon"
               required
@@ -31,12 +31,12 @@ const Form = () => {
         </div>
 
         <div className={blockStyle + "w-full md:w-1/2"}>
-          <label className={labelStyle} htmlFor="lastname">
-            <FormattedMessage id="form.lastname" />
+          <label className={labelStyle} htmlFor="lastName">
+            <FormattedMessage id="form.lastName" />
             <input
               type="text"
-              id="lastname"
-              name="lastname"
+              id="lastName"
+              name="lastName"
               className={inputStyle}
               placeholder="Doe"
               required

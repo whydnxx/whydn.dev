@@ -4,7 +4,7 @@
   "author": "Wahyudin",
   "pages": {
     "index": "Home",
-    "graphicdesign": "Graphic Design",
+    "graphicDesign": "Graphic Design",
     "404": "Error 404"
   },
   "nav": {
@@ -12,7 +12,7 @@
     "about": "About",
     "contact": "Contact"
   },
-  "graphicdesign": {
+  "graphicDesign": {
     "intro": "Selection of my works as a Graphic Designer"
   },
   "hero": {
@@ -68,17 +68,15 @@
     "intro": "Do you have web development projects, freelance missions or just opportunities to offer me? Let's get in touch and discuss it over a coffee!"
   },
   "form": {
-    "firstname": "First name",
-    "lastname": "Last name",
+    "firstName": "First name",
+    "lastName": "Last name",
     "email": "Email",
     "message": "Message",
     "send": "Send"
   },
   "footer": {
-    "socialconnect": "Let's connect!",
+    "socialConnect": "Let's connect!",
     "info": "Build with",
-    "powered": "Powered by",
-    "hosted": "Hosted by",
     "back_to_top": "Back to top"
   },
   "social": {
@@ -92,7 +90,7 @@
     "description": "Unfortunately, the page you are looking for does not exist :("
   },
   "global": {
-    "backtohome": "Back to Home",
+    "backToHome": "Back to Home",
     "sendMail": "Get in touch",
     "downloadResume": "My résumé",
     "downloadResume2": "Download my résumé",

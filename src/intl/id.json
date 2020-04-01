@@ -4,7 +4,7 @@
   "author": "Wahyudin",
   "pages": {
     "index": "Home",
-    "graphicdesign": "Graphic Design",
+    "graphicDesign": "Graphic Design",
     "404": "Error 404"
   },
   "nav": {
@@ -12,7 +12,7 @@
     "about": "Tentang Saya",
     "contact": "Hubungi Saya"
   },
-  "graphicdesign": {
+  "graphicDesign": {
     "intro": "Selection of my works as a Graphic Designer"
   },
   "hero": {
@@ -68,14 +68,15 @@
     "intro" : "Apakah Anda memiliki proyek pengembangan web, project atau hanya peluang untuk menawarkan kepada saya? Mari hubungi saya dan membahasnya bersama segelas kopi!"
   },
   "form": {
-    "firstname": "Nama Depan",
-    "lastname": "Nama Belakang",
+    "firstName": "Nama Depan",
+    "lastName": "Nama Belakang",
     "email": "Email",
     "message": "Pesan",
     "send": "Kirim"
   },
   "footer": {
-    "socialconnect": "Let's connect!",
+    "socialConnect": "Let's connect!",
+    "info": "Build with",
     "back_to_top": "Back to top"
   },
   "social": {
@@ -89,7 +90,7 @@
     "description": "Unfortunately, the page you are looking for does not exist :("
   },
   "global": {
-    "backtohome": "Back to Home",
+    "backToHome": "Back to Home",
     "sendMail": "Get in touch",
     "downloadResume": "My résumé",
     "downloadResume2": "Download my résumé",

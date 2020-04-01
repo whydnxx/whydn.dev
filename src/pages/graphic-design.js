@@ -41,16 +41,16 @@ const GraphicDesign = () => {
     <Layout>
       <SEO
         lang={intl.locale}
-        title={intl.formatMessage({ id: "pages.graphicdesign" })}
+        title={intl.formatMessage({ id: "pages.graphicDesign" })}
         keywords={[`developer`, `front-end developer`, `graphic designer`]}
       />
       <HeaderSecondary />
       <header className="mx-5 my-12 text-center sm:my-20 sm:mx-32 lg:my-24">
         <h1 className="text-2xl font-bold text-primary md:text-4xl dark:text-secondary font-header">
-          <FormattedMessage id="pages.graphicdesign" />
+          <FormattedMessage id="pages.graphicDesign" />
         </h1>
         <h2 className="text-lg text-gray-800 md:text-xl font-body dark:text-white">
-          <FormattedMessage id="graphicdesign.intro" />
+          <FormattedMessage id="graphicDesign.intro" />
         </h2>
       </header>
       <section className="px-3 pt-10 pb-10 bg-gray-200 border-t sm:pt-12 md:pt-20 dark:border-gray-800 sm:px-6 dark:bg-gray-900">
@@ -67,7 +67,7 @@ const GraphicDesign = () => {
           <Button
             link="/"
             style={`py-3`}
-            text={<FormattedMessage id="global.backtohome" />}
+            text={<FormattedMessage id="global.backToHome" />}
           />
         </div>
       </section>

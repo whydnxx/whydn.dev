@@ -27,7 +27,7 @@ const NotFoundPage = ({ intl }) => (
           className="text-lg hover:text-primary dark:hover:text-primary"
         >
           <IoIosArrowRoundForward className="inline mr-1 text-2xl align-middle" />
-          <FormattedMessage id="global.backtohome" />
+          <FormattedMessage id="global.backToHome" />
         </Link>
       </div>
     </div>

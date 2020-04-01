@@ -10,7 +10,7 @@ const Footer = () => {
       className="px-4 py-20 text-center bg-white border-t border-gray-400 dark:border-gray-800 dark:bg-gray-900"
     >
       <h3 className="font-bold text-gray-800 uppercase text-1xl dark:text-white font-bold">
-        <FormattedMessage id="footer.socialconnect" />
+        <FormattedMessage id="footer.socialConnect" />
       </h3>
       <div className="flex justify-center py-5 mb-4">
         <Social value="light dark cursor-pointer" />
