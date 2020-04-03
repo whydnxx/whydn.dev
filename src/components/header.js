@@ -45,7 +45,7 @@ class Header extends React.Component {
             <div>
               <Language />
             </div>
-            <div className="flex justify-between sm:ml-2 sm:ml-6">
+            {/* <div className="flex justify-between sm:ml-2 sm:ml-6">
               {this.state.theme !== null ? (
                   <Toggle
                       icons={{
@@ -78,7 +78,7 @@ class Header extends React.Component {
               ) : (
                   <div style={{ height: '24px' }} />
               )}
-            </div>
+            </div> */}
           </div>
         </HeaderLayout>
     );
