@@ -1,5 +1,5 @@
 ---
 title: "PostgreSQL"
-order: 4
+order: 5
 featuredImage: ../../images/stack/postgresql.svg
 ---

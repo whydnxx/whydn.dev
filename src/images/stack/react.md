@@ -1,5 +1,5 @@
 ---
 title: "React"
-order: 7
+order: 6
 featuredImage: ../../images/stack/react.svg
 ---

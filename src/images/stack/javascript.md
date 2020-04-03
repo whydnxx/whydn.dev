@@ -1,5 +1,5 @@
 ---
 title: "JavaScript"
-order: 3
+order: 1
 featuredImage: ../../images/stack/javascript.svg
 ---
