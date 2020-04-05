@@ -68,8 +68,7 @@
     "intro" : "Apakah Anda memiliki proyek pengembangan web, project atau hanya peluang untuk menawarkan kepada saya? Mari hubungi saya dan membahasnya bersama segelas kopi!"
   },
   "form": {
-    "firstName": "Nama Depan",
-    "lastName": "Nama Belakang",
+    "fullName": "Nama Lengkap",
     "email": "Email",
     "message": "Pesan",
     "send": "Kirim"

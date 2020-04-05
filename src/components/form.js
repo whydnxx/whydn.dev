@@ -11,38 +11,21 @@ const Form = () => {
   return (
     <form
       name="contact"
+      action="https://getform.io/f/55f50474-3eda-4bd4-a8e5-46b5c1760a22"
       method="post"
     >
-      <input type="hidden" name="contact" value="contact" />
-
-      <div className="flex flex-col md:flex-row">
-        <div className={blockStyle + "w-full md:w-1/2 md:mr-6"}>
-          <label className={labelStyle} htmlFor="firstName">
-            <FormattedMessage id="form.firstName" />
-            <input
-              type="text"
-              id="firstName"
-              name="firstName"
-              className={inputStyle}
-              placeholder="Jhon"
-              required
-            />
-          </label>
-        </div>
-
-        <div className={blockStyle + "w-full md:w-1/2"}>
-          <label className={labelStyle} htmlFor="lastName">
-            <FormattedMessage id="form.lastName" />
-            <input
-              type="text"
-              id="lastName"
-              name="lastName"
-              className={inputStyle}
-              placeholder="Doe"
-              required
-            />
-          </label>
-        </div>
+      <div className={blockStyle}>
+        <label className={labelStyle} htmlFor="fullName">
+          <FormattedMessage id="form.fullName" />
+          <input
+            type="text"
+            id="fullName"
+            name="name"
+            className={inputStyle}
+            placeholder="Jhon Doe"
+            required
+          />
+        </label>
       </div>
 
       <div className={blockStyle}>
