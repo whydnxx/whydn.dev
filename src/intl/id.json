@@ -45,20 +45,6 @@
       "5": "A lot of fun"
     }
   },
-  "services": {
-    "design": {
-      "title": "Visual Design",
-      "desc": "Saya membuat desain situs web dan aplikasi Anda."
-    },
-    "integration": {
-      "title": "Integration",
-      "desc": "Saya mengusahakan integrasi web model Anda dalam Desain Responsif."
-    },
-    "development": {
-      "title": "Development",
-      "desc": "Saya mengembangkan kode dengan tangan hangat saya, dikembangkan dengan hati, mudah dirawat, kode bersih, dan praktik yang baik"
-    }
-  },
   "stack": {
     "title": "My actual stack",
     "desc": "Here's the stack I'm currently working with etc.."

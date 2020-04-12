@@ -2,9 +2,6 @@ import React from "react"
 import { FormattedMessage, useIntl } from "gatsby-plugin-intl"
 import Portrait from "./portrait"
 import Stack from "./stack"
-import Integration from "./icons/integration"
-import Design from "./icons/design"
-import Development from "./icons/development"
 
 const About = () => {
   return (
@@ -26,35 +23,6 @@ const About = () => {
             <FormattedMessage id="stack.title" />
           </h3>
           <Stack />
-        </div>
-        <div className="flex flex-col mb-24 lg:-mx-6 lg:flex-row">
-          <div className="w-2/3 mx-auto mb-12 text-center sm:w-2/3 lg:mb-0 lg:mx-6 lg:w-1/3 lg:w-full">
-            <Design className="w-16 mx-auto mb-6 sm:w-20" />
-            <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">
-              <FormattedMessage id="services.design.title" />
-            </h3>
-            <p className="text-xl md:text-2xl">
-              <FormattedMessage id="services.design.desc" />
-            </p>
-          </div>
-          <div className="w-2/3 mx-auto mb-12 text-center sm:w-2/3 lg:mb-0 lg:mx-6 lg:w-1/3 lg:w-full">
-            <Integration className="w-16 mx-auto mb-6 sm:w-20" />
-            <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">
-              <FormattedMessage id="services.integration.title" />
-            </h3>
-            <p className="text-xl md:text-2xl">
-              <FormattedMessage id="services.integration.desc" />
-            </p>
-          </div>
-          <div className="w-2/3 mx-6 mx-auto mb-0 text-center lg:mx-6 sm:w-2/3 lg:w-1/3 lg:w-full">
-            <Development className="w-16 mx-auto mb-6 sm:w-20" />
-            <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">
-              <FormattedMessage id="services.development.title" />
-            </h3>
-            <p className="text-xl md:text-2xl">
-              <FormattedMessage id="services.development.desc" />
-            </p>
-          </div>
         </div>
       </div>
     </section>
