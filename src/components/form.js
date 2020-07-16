@@ -11,9 +11,10 @@ const Form = () => {
   return (
     <form
       name="contact"
-      action="https://getform.io/f/55f50474-3eda-4bd4-a8e5-46b5c1760a22"
       method="post"
+      data-netlify="true"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <div className={blockStyle}>
         <label className={labelStyle} htmlFor="fullName">
           <FormattedMessage id="form.fullName" />
