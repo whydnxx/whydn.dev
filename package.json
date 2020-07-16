@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "whydn-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
+  "description": "Portfolio web page for whydn.dev",
+  "version": "1.0.0",
   "author": "Wahyudin <whydn.id@hotmail.com>",
   "dependencies": {
     "@svgr/webpack": "^4.3.3",
@@ -53,9 +53,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/whydn-dev/whydn-dev.github.io"
+    "url": "https://github.com/whydn-dev/whydn.dev"
   },
   "bugs": {
-    "url": "https://github.com/whydn-dev/whydn-dev.github.io/issues"
+    "url": "https://github.com/whydn-dev/whydn.dev/issues"
   }
 }
