@@ -1,7 +1,6 @@
 import React from "react"
 import ProjectDev from "./projectDev"
 import { useStaticQuery, graphql } from "gatsby"
-import { FormattedMessage } from "gatsby-plugin-intl"
 
 const Work = () => {
   const data = useStaticQuery(graphql`
@@ -35,16 +34,15 @@ const Work = () => {
         }
       }
     }
-  `);
+  `)
 
-  const projects = data.allMarkdownRemark.edges;
+  const projects = data.allMarkdownRemark.edges
 
   return (
     <section
       id="work"
       className="px-3 pt-12 pb-0 mx-auto sm:px-6 sm:pt-16 md:max-w-4xl md:pt-20 lg:pt-32 lg:max-w-6xl"
     >
-
       <div className="flex flex-wrap -mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-10">
         {projects.map(({ node }) => (
           <ProjectDev
@@ -63,6 +61,6 @@ const Work = () => {
       </div>
     </section>
   )
-};
+}
 
 export default Work

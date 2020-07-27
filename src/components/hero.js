@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react"
 import Button from "./button"
 
-import { FormattedMessage, injectIntl, useIntl } from "gatsby-plugin-intl"
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
 const Avatar = lazy(() => import("./avatar"))
 const renderLoader = () => <p>Loading</p>
 

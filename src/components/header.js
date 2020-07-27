@@ -3,49 +3,46 @@ import React from "react"
 import Language from "./language"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import HeaderLayout from "./headerLayout"
-import Toggle from "./Toggle";
-import sun from "../images/sun.png";
-import moon from "../images/moon.png";
 
 class Header extends React.Component {
   state = {
     theme: null,
-  };
+  }
   componentDidMount() {
-    this.setState({ theme: window.__theme });
+    this.setState({ theme: window.__theme })
     window.__onThemeChange = () => {
-      this.setState({ theme: window.__theme });
-    };
+      this.setState({ theme: window.__theme })
+    }
   }
 
   render() {
     return (
-        <HeaderLayout>
-          <div className="flex flex-col items-center justify-center sm:flex-row">
-            <nav className="mb-1 sm:mb-0">
-              <AnchorLink
-                  href="#work"
-                  className="cursor-pointer hover:text-primary dark:hover:text-secondary"
-              >
-                <FormattedMessage id="nav.work" />
-              </AnchorLink>
-              <AnchorLink
-                  href="#about"
-                  className="mx-6 cursor-pointer md:mx-8 hover:text-primary dark:hover:text-secondary"
-              >
-                <FormattedMessage id="nav.about" />
-              </AnchorLink>
-              <AnchorLink
-                  href="#contact"
-                  className="cursor-pointer hover:text-primary dark:hover:text-secondary"
-              >
-                <FormattedMessage id="nav.contact" />
-              </AnchorLink>
-            </nav>
-            <div>
-              <Language />
-            </div>
-            {/* <div className="flex justify-between sm:ml-2 sm:ml-6">
+      <HeaderLayout>
+        <div className="flex flex-col items-center justify-center sm:flex-row">
+          <nav className="mb-1 sm:mb-0">
+            <AnchorLink
+              href="#work"
+              className="cursor-pointer hover:text-primary dark:hover:text-secondary"
+            >
+              <FormattedMessage id="nav.work" />
+            </AnchorLink>
+            <AnchorLink
+              href="#about"
+              className="mx-6 cursor-pointer md:mx-8 hover:text-primary dark:hover:text-secondary"
+            >
+              <FormattedMessage id="nav.about" />
+            </AnchorLink>
+            <AnchorLink
+              href="#contact"
+              className="cursor-pointer hover:text-primary dark:hover:text-secondary"
+            >
+              <FormattedMessage id="nav.contact" />
+            </AnchorLink>
+          </nav>
+          <div>
+            <Language />
+          </div>
+          {/* <div className="flex justify-between sm:ml-2 sm:ml-6">
               {this.state.theme !== null ? (
                   <Toggle
                       icons={{
@@ -79,9 +76,9 @@ class Header extends React.Component {
                   <div style={{ height: '24px' }} />
               )}
             </div> */}
-          </div>
-        </HeaderLayout>
-    );
+        </div>
+      </HeaderLayout>
+    )
   }
 }
 export default injectIntl(Header)
