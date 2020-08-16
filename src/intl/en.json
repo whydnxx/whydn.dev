@@ -1,6 +1,6 @@
 {
-  "title": "Wahyudin • Full Stack Developer",
-  "description": "Hello ! I am Wahyudin, Full Stack Developer. I design and code beautifully simple things, and I love what I do.",
+  "title": "Wahyudin • Softare Developer",
+  "description": "Hello ! I am Wahyudin, Software Developer. I design and code beautifully simple things, and I love what I do.",
   "author": "Wahyudin",
   "pages": {
     "index": "Home",
@@ -17,7 +17,7 @@
   },
   "hero": {
     "job_hi": "Hello ! My name is",
-    "job_dev": "Full Stack Developer",
+    "job_dev": "Software Developer",
     "job_description": "I design and code beautifully simple things, and I love what I do."
   },
   "work": {
@@ -26,24 +26,7 @@
   },
   "about": {
     "title": "About Me",
-    "intro": "Hello ! I'm Wahyudin, Full Stack Developer based in Jakarta (Indonesia). I'm a man who thirsts for curiosity and problem solvers in third of night. I am very passionate and dedicated to my work. And enjoy working in a team or individual.",
-    "presentation": "Passionate about design and front-end web development, I am committed to carrying out the opportunities entrusted to me by building modern and effective solutions. Rigorous and demanding, I take care to respect the best practices and standards of the Web. Being also curious and open, I like to experiment with the latest trends through daily monitoring.",
-    "interests": {
-      "title": "My main interests",
-      "1": "UX/UI Design",
-      "2": "Maintainability",
-      "3": "Clean Code",
-      "4": "Performance",
-      "5": "Happy Face"
-    },
-    "personality": {
-      "title": "5 things about myself",
-      "1": "Responsive",
-      "2": "Adaptability",
-      "3": "Curious",
-      "4": "Hilarious",
-      "5": "A lot of fun"
-    }
+    "intro": "Hello ! I'm Wahyudin, Software Developer based in Jakarta (Indonesia). I'm a man who thirsts for curiosity and problem solvers in third of night. I am very passionate and dedicated to my work. And enjoy working in a team or individual."
   },
   "stack": {
     "title": "My actual stack",
@@ -77,8 +60,8 @@
   "global": {
     "backToHome": "Back to Home",
     "sendMail": "Get in touch",
-    "downloadResume": "My résumé",
-    "downloadResume2": "Download my résumé",
+    "downloadResume": "My resumé",
+    "downloadResume2": "Download my resumé",
     "resume": "#"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "title": "Wahyudin • Full Stack Developer",
-  "description": "Hello ! I am Wahyudin, Full Stack Developer. I design and code beautifully simple things, and I love what I do.",
+  "title": "Wahyudin • Software Developer",
+  "description": "Hallo ! Saya Wahyudin seoramg Software Developer. Saya merancang dan menulis kode dengan sederhana dan keindahan, dan saya senang dengan apa yang saya lakukan.",
   "author": "Wahyudin",
   "pages": {
-    "index": "Home",
-    "graphicDesign": "Graphic Design",
-    "404": "Error 404"
+    "index": "Beranda",
+    "graphicDesign": "Desain Grafis",
+    "404": "Halaman tidak ditemukan"
   },
   "nav": {
     "work": "Pekerjaan",
@@ -13,45 +13,28 @@
     "contact": "Hubungi Saya"
   },
   "graphicDesign": {
-    "intro": "Selection of my works as a Graphic Designer"
+    "intro": "Beberapa karya saya dalam desan grafis."
   },
   "hero": {
-    "job_hi": "Halo ! Nama saya",
-    "job_dev": "Full Stack Developer",
-    "job_description": "I design and code beautifully simple things, and I love what I do."
+    "job_hi": "Hallo ! Nama saya",
+    "job_dev": "Software Developer",
+    "job_description": "Saya merancang dan menulis kode dengan sederhana dan keindahan, dan saya senang dengan apa yang saya lakukan."
   },
   "work": {
-    "work_title": "My Recent Work",
-    "work_description": "Here a few projects I've been worked on recently."
+    "work_title": "Pekerjaan terbaru saya",
+    "work_description": "Berikut beberapa proyek yang baru-baru ini saya kerjakan."
   },
   "about": {
-    "title": "About Me",
-    "intro": "Hello ! I'm Wahyudin, Full Stack Developer based in Jakarta (Indonesia). I'm a man who thirsts for curiosity and problem solvers in third of night. I am very passionate and dedicated to my work. And enjoy working in a team or individual.",
-    "presentation": "Passionate about design and front-end web development, I am committed to carrying out the opportunities entrusted to me by building modern and effective solutions. Rigorous and demanding, I take care to respect the best practices and standards of the Web. Being also curious and open, I like to experiment with the latest trends through daily monitoring.",
-    "interests": {
-      "title": "My main interests",
-      "1": "UX/UI Design",
-      "2": "Maintainability",
-      "3": "Clean Code",
-      "4": "Performance",
-      "5": "Happy Face"
-    },
-    "personality": {
-      "title": "5 things about myself",
-      "1": "Responsive",
-      "2": "Adaptability",
-      "3": "Curious",
-      "4": "Hilarious",
-      "5": "A lot of fun"
-    }
+    "title": "Tentang saya",
+    "intro": "Hallo ! I'm Wahyudin, Software developer based in Jakarta (Indonesia). I'm a man who thirsts for curiosity and problem solvers in third of night. I am very passionate and dedicated to my work. And enjoy working in a team or individual."
   },
   "stack": {
-    "title": "My actual stack",
-    "desc": "Here's the stack I'm currently working with etc.."
+    "title": "Teknologi yang saya kuasai",
+    "desc": "Berikut adalah teknologi yang saya kuasi diantaranya ..."
   },
   "contact": {
-    "title": "Get in touch",
-    "intro" : "Apakah Anda memiliki proyek pengembangan web, project atau hanya peluang untuk menawarkan kepada saya? Mari hubungi saya dan membahasnya bersama segelas kopi!"
+    "title": "Dekat dengan saya",
+    "intro": "Apakah Anda memiliki proyek pengembangan web, project atau hanya peluang untuk menawarkan kepada saya? Mari hubungi saya dan membahasnya bersama segelas kopi!"
   },
   "form": {
     "fullName": "Nama Lengkap",
@@ -60,25 +43,25 @@
     "send": "Kirim"
   },
   "footer": {
-    "socialConnect": "Let's connect!",
-    "info": "Build with",
-    "back_to_top": "Back to top"
+    "socialConnect": "Tetap berhubung!",
+    "info": "Dibuat dengan",
+    "back_to_top": "Kembali ke atas"
   },
   "social": {
-    "twitter": "Go to my Twitter profile",
-    "github": "Go to my GitHub profile",
-    "linkedin": "Go to my LinkedIn profile",
-    "email": "Send a mail"
+    "twitter": "Twitter profile saya",
+    "github": "GitHub profile saya",
+    "linkedin": "LinkedIn profile saya",
+    "email": "Kirim email"
   },
   "notfound": {
-    "header": "Error 404",
-    "description": "Unfortunately, the page you are looking for does not exist :("
+    "header": "Halaman tidak ditemukan",
+    "description": "Maaf, halaman yang kamu cari tidak ada :("
   },
   "global": {
-    "backToHome": "Back to Home",
-    "sendMail": "Get in touch",
-    "downloadResume": "My résumé",
-    "downloadResume2": "Download my résumé",
+    "backToHome": "Kembali ke Beranda",
+    "sendMail": "Dekat dengan saya",
+    "downloadResume": "Resume saya",
+    "downloadResume2": "Download resume saya",
     "resume": "#"
   }
 }
