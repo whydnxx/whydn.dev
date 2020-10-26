@@ -1,5 +1,5 @@
 ---
 title: "Docker"
-order: 9
+order: 10
 featuredImage: ../../images/stack/docker.svg
 ---

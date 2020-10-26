@@ -1,5 +1,5 @@
 ---
 title: "Git"
-order: 8
+order: 9
 featuredImage: ../../images/stack/git.svg
 ---
