@@ -7,7 +7,7 @@ const Work = () => {
     query {
       allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/(development)/" } }
-        sort: { fields: frontmatter___order, order: ASC }
+        sort: { fields: frontmatter___order, order: DESC }
       ) {
         edges {
           node {

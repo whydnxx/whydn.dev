@@ -1,7 +1,7 @@
 ---
 title: "Graphic Design"
 title_id: "Desain Grafik"
-order: 2
+order: 1
 description: "Some sudden design collections that have been realized"
 description_id: "Beberapa kumpulan desain mendadak yang telah direalisasikan"
 featuredImage: ../../images/development/graphic-designer.png
