@@ -19,13 +19,13 @@ export function LayoutLanding({ children }) {
               <div className="inline-flex flex-col items-center w-full mx-auto py-20">
                 {children}
                 <div className="mt-10 text-center text-gray-300">
-                  <p class="text-sm">
+                  <p className="text-sm">
                     Design by &nbsp;
                     <a
                       href="https://dribbble.com/NicolasMzrd?ref=whydn.dev"
                       target="_blank"
                       rel="noopener"
-                      class="underline"
+                      className="underline"
                     >
                       Nicolas Meuzard
                     </a>
@@ -37,7 +37,7 @@ export function LayoutLanding({ children }) {
                       href="https://nextjs.org?ref=whydn.dev"
                       target="_blank"
                       rel="noopener"
-                      class="underline"
+                      className="underline"
                     >
                       Next.js
                     </a>
@@ -46,7 +46,7 @@ export function LayoutLanding({ children }) {
                       href="http://tailwindcss.com?ref=whydn.dev"
                       target="_blank"
                       rel="noopener"
-                      class="underline"
+                      className="underline"
                     >
                       Tailwind.css
                     </a>
@@ -56,8 +56,8 @@ export function LayoutLanding({ children }) {
             </div>
           </div>
         </div>
-        <div class="fixed top-0 left-0 z-20 w-full h-16 pointer-events-none bg-gradient-to-b from-gray-900 to-transparent"></div>
-        <div class="fixed bottom-0 left-0 z-20 w-full h-16 pointer-events-none bg-gradient-to-t from-gray-900 to-transparent"></div>
+        <div className="fixed top-0 left-0 z-20 w-full h-16 pointer-events-none bg-gradient-to-b from-gray-900 to-transparent"></div>
+        <div className="fixed bottom-0 left-0 z-20 w-full h-16 pointer-events-none bg-gradient-to-t from-gray-900 to-transparent"></div>
       </div>
     </>
   );
