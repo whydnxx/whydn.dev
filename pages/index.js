@@ -3,13 +3,11 @@ import { Contact } from "@/components/Contact";
 import { LayoutLanding } from "@/components/Layout";
 import { Projects } from "@/components/Projects";
 
-import { useQuery } from "@apollo/react-hooks";
-import { getDataFromTree } from "@apollo/react-ssr";
-import withApollo from "@/lib/apollo";
 import { GET_PINNED_REPOSITORIES } from "@/lib/graphql";
+import { initializeApollo, addApolloState } from "@/lib/apollo";
 
-const Home = () => {
-  const projects = useQuery(GET_PINNED_REPOSITORIES);
+const Home = (props) => {
+  const { projects } = props;
 
   return (
     <LayoutLanding>
@@ -26,4 +24,16 @@ const Home = () => {
   );
 };
 
-export default withApollo(Home, { getDataFromTree });
+export async function getServerSideProps() {
+  const apolloClient = initializeApollo();
+
+  const projects = await apolloClient.query({
+    query: GET_PINNED_REPOSITORIES,
+  });
+
+  return addApolloState(apolloClient, {
+    props: { projects },
+  });
+}
+
+export default Home;
