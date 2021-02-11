@@ -5,6 +5,7 @@
             "@/components/*": ["components/*"],
             "@/utils/*": ["utils/*"],
             "@/styles/*": ["assets/styles/*"],
+            "@/lib/*": ["lib/*"]
         }
     },
     "exclude": ["node_modules"]
