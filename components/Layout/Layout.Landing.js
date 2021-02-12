@@ -4,21 +4,21 @@ import { Navigation } from "@/components/Navigation";
 export function LayoutLanding({ children }) {
   return (
     <>
-      <div className="flex flex-row h-screen">
+      <div className="flex flex-col md:flex-row md:h-screen">
         {/* Side Content */}
-        <div className="w-5/12">
-          <div className="flex flex-col justify-between mx-auto w-full h-screen px-8 py-20 pl-20">
+        <div className="w-full md:w-5/12">
+          <div className="flex flex-row justify-between mx-auto w-full px-8 py-20 md:h-screen md:pl-20 md:flex-col lg:py-14">
             <Intro />
             <Navigation />
           </div>
         </div>
         {/* Scrollable Content */}
         <div className="flex flex-1 overflow-hidden">
-          <div className="flex-1 overflow-y-scroll">
+          <div className="flex-1 md:overflow-y-scroll">
             <div className="container">
-              <div className="inline-flex flex-col items-center w-full mx-auto py-20">
+              <div className="inline-flex flex-col items-center w-full mx-auto md:py-20 lg:py-14">
                 {children}
-                <div className="mt-10 text-center text-gray-300">
+                <div className="text-center text-gray-300 lg:mt-10">
                   <p className="text-sm">
                     Design by &nbsp;
                     <a

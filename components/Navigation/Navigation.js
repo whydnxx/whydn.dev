@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Navigation() {
   return (
-    <nav className="text-gray-400 text-sm font-bold uppercase hidden lg:block">
+    <nav className="text-gray-400 text-sm font-bold uppercase hidden md:block">
       <ul className="flex flex-col">
         <li className="my-2">
           <Link href="#projects">
