@@ -1,7 +1,7 @@
-import { getAllFeaturedPosts, getAllPosts } from "@/lib/api";
+import { getAllFeaturedPosts } from "@/lib/api";
 
 export default function handler(req, res) {
-  const allPosts = getAllPosts([
+  const featuredPost = getAllFeaturedPosts([
     "title",
     "date",
     "slug",
@@ -10,5 +10,5 @@ export default function handler(req, res) {
     "isFeatured",
   ]);
 
-  res.status(200).json({ allPosts });
+  res.status(200).json({ featuredPost });
 }
