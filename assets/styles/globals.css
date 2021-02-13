@@ -16,11 +16,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    @apply bg-gray-900;
-    @apply overflow-x-hidden;
-}
-
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
