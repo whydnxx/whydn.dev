@@ -21,6 +21,16 @@ module.exports = {
         lg: "16rem",
         xl: "23rem",
       },
+      keyframes: {
+        swing: {
+          "0%": { transform: "rotate(2deg)" },
+          "50%": { transform: "rotate(-1.5deg)" },
+          "100%": { transform: "rotate(2deg)" },
+        },
+      },
+      animation: {
+        swing: "swing 3.5s ease-in-out forwards infinite",
+      },
     },
   },
   variants: {

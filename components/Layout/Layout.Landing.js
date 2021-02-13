@@ -1,10 +1,12 @@
 import { Intro } from "@/components/Intro";
 import { Navigation } from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import Switcher from "@/components/Switcher";
 
 export function LayoutLanding({ children }) {
   return (
     <>
+      <Switcher />
       <div className="flex flex-col md:flex-row md:h-screen">
         {/* Side Content */}
         <div className="w-full md:w-5/12">
