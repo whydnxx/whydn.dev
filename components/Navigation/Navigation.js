@@ -3,7 +3,7 @@ import Link from "next/link";
 export function Navigation() {
   return (
     <nav className="text-gray-400 text-sm font-bold uppercase hidden md:block">
-      <ul className="flex flex-col">
+      <ul className="flex flex-col xl:text-lg">
         <li className="my-2">
           <Link href="#projects">
             <a className="inline-flex items-center transition-all ease-in-out duration-200 group hover:text-white">
