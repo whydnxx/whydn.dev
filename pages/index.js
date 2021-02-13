@@ -5,9 +5,10 @@ import { Projects } from "@/components/Projects";
 
 import { GET_PINNED_REPOSITORIES } from "@/lib/graphql";
 import { initializeApollo, addApolloState } from "@/lib/apollo";
+import { getAllFeaturedPosts } from "@/lib/api";
 
 const Home = (props) => {
-  const { projects } = props;
+  const { projects, featuredPost } = props;
 
   return (
     <LayoutLanding>
@@ -15,7 +16,7 @@ const Home = (props) => {
         <Projects data={projects.data} isLoading={projects.loading} />
       </div>
       <div className="mt-12 w-3/4" id="blog">
-        <BlogLanding />
+        <BlogLanding posts={featuredPost} />
       </div>
       <div className="mt-14 w-3/4" id="contact">
         <Contact />
@@ -31,8 +32,17 @@ export async function getServerSideProps() {
     query: GET_PINNED_REPOSITORIES,
   });
 
+  const featuredPost = getAllFeaturedPosts([
+    "title",
+    "date",
+    "slug",
+    "hero",
+    "excerpt",
+    "isFeatured",
+  ]);
+
   return addApolloState(apolloClient, {
-    props: { projects },
+    props: { projects, featuredPost },
   });
 }
 
