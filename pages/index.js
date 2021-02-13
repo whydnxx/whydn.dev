@@ -25,7 +25,7 @@ const Home = (props) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const apolloClient = initializeApollo();
 
   const projects = await apolloClient.query({
