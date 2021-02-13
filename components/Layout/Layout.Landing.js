@@ -1,5 +1,6 @@
 import { Intro } from "@/components/Intro";
 import { Navigation } from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 export function LayoutLanding({ children }) {
   return (
@@ -18,40 +19,7 @@ export function LayoutLanding({ children }) {
             <div className="container">
               <div className="inline-flex flex-col items-center w-full mx-auto md:py-20 lg:py-14">
                 {children}
-                <div className="text-center text-gray-300 lg:mt-10">
-                  <p className="text-sm">
-                    Design by &nbsp;
-                    <a
-                      href="https://dribbble.com/NicolasMzrd?ref=whydn.dev"
-                      target="_blank"
-                      rel="noopener"
-                      className="underline"
-                    >
-                      Nicolas Meuzard
-                    </a>
-                    .
-                  </p>
-                  <p className="text-sm">
-                    Powered by &nbsp;
-                    <a
-                      href="https://nextjs.org?ref=whydn.dev"
-                      target="_blank"
-                      rel="noopener"
-                      className="underline"
-                    >
-                      Next.js
-                    </a>
-                    &nbsp;&&nbsp;
-                    <a
-                      href="http://tailwindcss.com?ref=whydn.dev"
-                      target="_blank"
-                      rel="noopener"
-                      className="underline"
-                    >
-                      Tailwind.css
-                    </a>
-                  </p>
-                </div>
+                <Footer />
               </div>
             </div>
           </div>

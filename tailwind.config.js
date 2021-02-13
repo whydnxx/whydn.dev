@@ -18,7 +18,8 @@ module.exports = {
         "2xl": "1440px",
       },
       maxWidth: {
-        xs: "22rem",
+        lg: "16rem",
+        xl: "23rem",
       },
     },
   },
