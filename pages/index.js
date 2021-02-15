@@ -1,11 +1,11 @@
 import { BlogLanding } from "@/components/Blog";
-import { Contact } from "@/components/Contact";
 import { LayoutLanding } from "@/components/Layout";
 import { Projects } from "@/components/Projects";
 
 import { GET_PINNED_REPOSITORIES } from "@/lib/graphql";
 import { initializeApollo, addApolloState } from "@/lib/apollo";
 import { getAllFeaturedPosts } from "@/lib/api";
+import Newsletter from "@/components/Newsletter";
 
 const Home = (props) => {
   const { projects, featuredPost } = props;
@@ -18,8 +18,8 @@ const Home = (props) => {
       <div className="mt-12 w-3/4" id="blog">
         <BlogLanding posts={featuredPost} />
       </div>
-      <div className="mt-14 w-3/4" id="contact">
-        <Contact />
+      <div className="mt-14 w-3/4" id="newsletter">
+        <Newsletter />
       </div>
     </LayoutLanding>
   );
