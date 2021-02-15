@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="my-5 mb-14 text-center text-gray-300 md:mb-0 lg:mb-0 lg:mt-10 xl:mb-0">
+    <div className="my-5 mb-14 text-center text-gray-500 md:mb-0 lg:mb-0 lg:mt-10 xl:mb-0">
       <p className="text-sm">
         Design by &nbsp;
         <a
@@ -23,7 +23,7 @@ export default function Footer() {
         >
           Next.js
         </a>
-        &nbsp;&&nbsp;
+        &nbsp;,&nbsp;
         <a
           href="http://tailwindcss.com?ref=whydn.dev"
           target="_blank"
@@ -31,6 +31,15 @@ export default function Footer() {
           className="underline"
         >
           Tailwind.css
+        </a>
+        &nbsp;&&nbsp;
+        <a
+          href="http://vercel.com?ref=whydn.dev"
+          target="_blank"
+          rel="noopener"
+          className="underline"
+        >
+          Vercel
         </a>
       </p>
     </div>
