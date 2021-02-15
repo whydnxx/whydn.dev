@@ -2,18 +2,21 @@ import { BlogLanding } from "@/components/Blog";
 import { LayoutLanding } from "@/components/Layout";
 import { Projects } from "@/components/Projects";
 
-import { GET_PINNED_REPOSITORIES } from "@/lib/graphql";
-import { initializeApollo, addApolloState } from "@/lib/apollo";
 import { getAllFeaturedPosts } from "@/lib/api";
 import Newsletter from "@/components/Newsletter";
 
 const Home = (props) => {
-  const { projects, featuredPost } = props;
+  const { featuredPost } = props;
 
   return (
     <LayoutLanding>
       <div className="w-3/4" id="projects">
-        <Projects data={projects.data} isLoading={projects.loading} />
+        <Projects
+          title="WHYDN.DEV"
+          language="Javascript"
+          url="https://github.com/whydnxx/whydn.dev"
+          description="🚀 The artcode and 'Behind The Scene' of whydn.dev . Build with Next.js and Tailwindcss"
+        />
       </div>
       <div className="mt-12 w-3/4" id="blog">
         <BlogLanding posts={featuredPost} />
@@ -26,12 +29,6 @@ const Home = (props) => {
 };
 
 export async function getStaticProps() {
-  const apolloClient = initializeApollo();
-
-  const projects = await apolloClient.query({
-    query: GET_PINNED_REPOSITORIES,
-  });
-
   const featuredPost = getAllFeaturedPosts([
     "title",
     "date",
@@ -41,9 +38,11 @@ export async function getStaticProps() {
     "isFeatured",
   ]);
 
-  return addApolloState(apolloClient, {
-    props: { projects, featuredPost },
-  });
+  return {
+    props: {
+      featuredPost,
+    },
+  };
 }
 
 export default Home;
