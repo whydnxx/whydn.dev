@@ -24,10 +24,6 @@ export default function Switcher() {
         />
         <div className="w-4 h-4 rounded-full m-0 p-0 bg-yellow-600 relative -left-2" />
       </div>
-      {/* <div id="pull-chain" class="swing-chain">
-        <div class="chain"></div>
-        <div class="handle"></div>
-      </div> */}
     </>
   );
 }
