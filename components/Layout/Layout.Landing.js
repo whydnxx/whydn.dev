@@ -2,10 +2,11 @@ import { Intro } from "@/components/Intro";
 import { Navigation } from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Switcher from "@/components/Switcher";
+import Container from "@/components/Commons/Container";
 
 export function LayoutLanding({ children }) {
   return (
-    <>
+    <Container>
       <Switcher />
       <div className="flex flex-col md:flex-row md:h-screen">
         {/* Side Content */}
@@ -29,6 +30,6 @@ export function LayoutLanding({ children }) {
         <div className="fixed top-0 left-0 z-20 w-full h-16 pointer-events-none bg-gradient-to-b from-gray-50 dark:from-gray-900 to-transparent"></div>
         <div className="fixed bottom-0 left-0 z-20 w-full h-16 pointer-events-none bg-gradient-to-t from-gray-50 dark:from-gray-900 to-transparent"></div>
       </div>
-    </>
+    </Container>
   );
 }
