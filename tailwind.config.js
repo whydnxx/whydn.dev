@@ -17,6 +17,9 @@ module.exports = {
       screens: {
         "2xl": "1440px",
       },
+      zIndex: {
+        "-10": "-10",
+      },
       maxWidth: {
         lg: "16rem",
         xl: "23rem",
