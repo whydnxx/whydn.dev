@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Intro } from "@/components/Intro";
 import { Navigation } from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -29,6 +30,15 @@ export function LayoutLanding({ children }) {
         </div>
         <div className="fixed top-0 left-0 z-20 w-full h-16 pointer-events-none bg-gradient-to-b from-white dark:from-gray-900 to-transparent"></div>
         <div className="fixed bottom-0 left-0 z-20 w-full h-16 pointer-events-none bg-gradient-to-t from-white dark:from-gray-900 to-transparent"></div>
+      </div>
+      <div className="hidden md:block fixed -left-20 bottom-40 -z-10 opacity-25">
+        <Image src="/blocks-1.svg" width={300} height={100} />
+      </div>
+      <div className="hidden md:block fixed -right-10 top-9 -z-10 opacity-25">
+        <Image src="/blocks-2.svg" width={300} height={100} />
+      </div>
+      <div className="hidden md:block fixed -right-12 bottom-12 -z-10 opacity-25">
+        <Image src="/blocks-3.svg" width={300} height={100} />
       </div>
     </Container>
   );
