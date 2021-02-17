@@ -3,7 +3,7 @@ import Switcher from "@/components/Switcher";
 
 export default function CustomNotFound() {
   return (
-    <Container title="What are you looking for ? - whydn.dev">
+    <Container title="Opps! Something went wrong - whydn.dev">
       <Switcher />
       <div
         aria-labelledby="pageTitle"
@@ -32,11 +32,11 @@ export default function CustomNotFound() {
                   />
                 </svg>
                 <span className="text-xl font-medium sm:text-2xl ">
-                  Oops! Page not found.
+                  Oops! Something went wrong.
                 </span>
               </h1>
               <p className="text-gray-500 dark:text-gray-400 text-base font-normal">
-                The page you are looking for was not found.
+                The page you are looking for is temporarily unavailable.
               </p>
               <p className="text-gray-500 dark:text-gray-400 text-base font-normal">
                 <a
