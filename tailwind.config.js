@@ -40,6 +40,7 @@ module.exports = {
     extend: {
       width: ["responsive", "group-hover"],
       transform: ["hover"],
+      opacity: ["dark"],
     },
   },
   plugins: [],
