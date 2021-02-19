@@ -1,4 +1,4 @@
-import DateFormatter from "@/utils/dateFormatter";
+import DateFormatter from "@/components/Commons/DateFormatter";
 import PropTypes from "prop-types";
 
 export function BlogLanding({ posts }) {
@@ -14,7 +14,7 @@ export function BlogLanding({ posts }) {
           >
             <a href="#" target="_blank" rel="noopener" className="block p-10">
               <p className="text-base font-normal text-gray-400 lg:text-sm">
-                {DateFormatter(post.date)}
+                <DateFormatter dateString={post.publishedDate} />
               </p>
               <h2
                 itemProp="name"
