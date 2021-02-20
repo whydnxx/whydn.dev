@@ -19,7 +19,8 @@ export function BlogLanding({ posts }) {
               className="block p-10"
             >
               <p className="text-base font-normal text-gray-400 lg:text-sm">
-                <DateFormatter dateString={post.publishedDate} />
+                <DateFormatter dateString={post.publishedDate} /> <br />
+                {post.readingTime.text}
               </p>
               <h2
                 itemProp="name"
