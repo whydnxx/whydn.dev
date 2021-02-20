@@ -2,8 +2,8 @@ import { BlogLanding } from "@/components/Blog";
 import { LayoutLanding } from "@/components/Layout";
 import { Projects } from "@/components/Projects";
 
-import { getAllFeaturedPosts } from "@/lib/api";
 import Newsletter from "@/components/Newsletter";
+import { getFeaturedPosts } from "@/lib/mdx";
 
 const Home = (props) => {
   const { featuredPost } = props;
@@ -29,15 +29,7 @@ const Home = (props) => {
 };
 
 export async function getStaticProps() {
-  const featuredPost = getAllFeaturedPosts([
-    "title",
-    "date",
-    "slug",
-    "hero",
-    "excerpt",
-    "publishedDate",
-    "isFeatured",
-  ]);
+  const featuredPost = await getFeaturedPosts();
 
   return {
     props: {
