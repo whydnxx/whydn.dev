@@ -40,7 +40,9 @@ module.exports = {
     extend: {
       width: ["responsive", "group-hover"],
       transform: ["hover"],
+      opacity: ["dark"],
+      typography: ["dark"],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

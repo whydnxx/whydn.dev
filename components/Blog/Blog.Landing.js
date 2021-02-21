@@ -1,4 +1,4 @@
-import DateFormatter from "@/utils/dateFormatter";
+import DateFormatter from "@/components/Commons/DateFormatter";
 import PropTypes from "prop-types";
 
 export function BlogLanding({ posts }) {
@@ -12,9 +12,15 @@ export function BlogLanding({ posts }) {
             itemType="http://schema.org/CreativeWork"
             className="flex-none my-1 w-full lg:max-w-lg xl:max-w-xl bg-gray-200 dark:bg-gray-800 transition-transform ease-in-out duration-300 group-hover:opacity-50 hover:opacity-important hover:transform hover:scale-110"
           >
-            <a href="#" target="_blank" rel="noopener" className="block p-10">
+            <a
+              href={`/blog/${post.slug}`}
+              target="_blank"
+              rel="noopener"
+              className="block p-10"
+            >
               <p className="text-base font-normal text-gray-400 lg:text-sm">
-                {DateFormatter(post.date)}
+                <DateFormatter dateString={post.publishedDate} /> <br />
+                {post.readingTime.text}
               </p>
               <h2
                 itemProp="name"

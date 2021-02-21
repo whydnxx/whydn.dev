@@ -2,6 +2,16 @@
   "name": "whydn.dev",
   "description": "I’am a Software Developer. I design and code beautifully simple things, and I love what I do.",
   "version": "0.1.0",
+  "author": {
+    "name": "Wahyudin",
+    "email": "whydn.id@hotmail.com",
+    "url": "https:whydn.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whydnxx/whydn.dev.git"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,13 +26,17 @@
     "gray-matter": "^4.0.2",
     "lodash": "^4.17.20",
     "next": "10.0.5",
+    "next-mdx-remote": "^2.1.3",
     "next-themes": "^0.0.10",
     "prop-types": "^15.7.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "reading-time": "^1.3.0",
+    "remark-slug": "^6.0.0",
     "swr": "^0.4.2"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.4",
     "postcss": "^8.2.4",
     "tailwindcss": "^2.0.2"
