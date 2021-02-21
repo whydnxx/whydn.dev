@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 export function BlogLanding({ posts }) {
   return (
     <div className="flex flex-wrap justify-between group">
-      {posts.map((post) => {
+      {posts.map((post, index) => {
         return (
           <article
-            key={post.id}
+            key={index}
             itemScope="itemscope"
             itemType="http://schema.org/CreativeWork"
             className="flex-none my-1 w-full lg:max-w-lg xl:max-w-xl bg-gray-200 dark:bg-gray-800 transition-transform ease-in-out duration-300 group-hover:opacity-50 hover:opacity-important hover:transform hover:scale-110"
