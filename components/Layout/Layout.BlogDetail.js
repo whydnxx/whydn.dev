@@ -1,6 +1,7 @@
 import Container from "../Commons/Container";
 import Image from "next/image";
 import { parseISO, format } from "date-fns";
+import { NavigationSecondary } from "../Navigation";
 import Switcher from "../Switcher";
 
 export function LayoutBlogDetail({ children, frontMatter }) {
@@ -23,6 +24,7 @@ export function LayoutBlogDetail({ children, frontMatter }) {
       type="article"
     >
       <Switcher />
+      <NavigationSecondary />
       <article className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           {title}
@@ -43,7 +45,6 @@ export function LayoutBlogDetail({ children, frontMatter }) {
           </div>
           <p className="text-sm text-gray-500 min-w-32 mt-2 md:mt-0">
             {readingTime.text}
-            {` • `}
           </p>
         </div>
         <div className="prose dark:prose-dark max-w-none w-full">
