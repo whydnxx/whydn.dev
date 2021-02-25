@@ -33,3 +33,10 @@ html {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	@apply bg-gray-500;
 }
+
+.sticky-nav {
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    transition: background-color .1 ease-in-out;
+    @apply sticky z-10 top-0;
+}

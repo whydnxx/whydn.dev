@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function Navigation() {
+export function NavigationPrimary() {
   return (
     <nav className="text-gray-500 text-sm font-bold uppercase hidden md:block">
       <ul className="flex flex-col xl:text-lg">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Intro } from "@/components/Intro";
-import { Navigation } from "@/components/Navigation";
+import { NavigationPrimary } from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Switcher from "@/components/Switcher";
 import Container from "@/components/Commons/Container";
@@ -14,7 +14,7 @@ export function LayoutLanding({ children }) {
         <div className="w-full md:w-5/12">
           <div className="flex flex-row justify-between mx-auto w-full px-8 py-20 md:h-screen md:pl-20 md:flex-col lg:py-14">
             <Intro />
-            <Navigation />
+            <NavigationPrimary />
           </div>
         </div>
         {/* Scrollable Content */}
