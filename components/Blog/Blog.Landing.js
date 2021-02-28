@@ -1,6 +1,6 @@
 import DateFormatter from "@/components/Commons/DateFormatter";
 
-export function BlogLanding() {
+export function BlogLanding({ posts }) {
   return (
     <div className="flex flex-wrap justify-between group">
       {posts.map((post, index) => {

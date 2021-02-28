@@ -1,4 +1,4 @@
-export function Projects() {
+export function Projects({ title, language, description, url }) {
   return (
     <div className="group">
       <article
