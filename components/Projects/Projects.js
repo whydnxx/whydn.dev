@@ -1,6 +1,4 @@
-import PropTypes from "prop-types";
-
-export function Projects({ title, language, description, url }) {
+export function Projects() {
   return (
     <div className="group">
       <article
@@ -29,10 +27,3 @@ export function Projects({ title, language, description, url }) {
     </div>
   );
 }
-
-Projects.propTypes = {
-  title: PropTypes.string.isRequired,
-  language: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-};

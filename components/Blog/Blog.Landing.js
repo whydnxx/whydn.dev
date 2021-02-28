@@ -1,7 +1,6 @@
 import DateFormatter from "@/components/Commons/DateFormatter";
-import PropTypes from "prop-types";
 
-export function BlogLanding({ posts }) {
+export function BlogLanding() {
   return (
     <div className="flex flex-wrap justify-between group">
       {posts.map((post, index) => {
@@ -38,7 +37,3 @@ export function BlogLanding({ posts }) {
     </div>
   );
 }
-
-BlogLanding.propTypes = {
-  posts: PropTypes.array.isRequired,
-};
