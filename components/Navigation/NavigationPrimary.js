@@ -21,10 +21,10 @@ export function NavigationPrimary() {
           </Link>
         </li>
         <li className="my-2">
-          <Link href="#contact">
+          <Link href="/about">
             <a className="inline-flex items-center transition ease-in-out duration-200 group hover:text-gray-900 dark:hover:text-white">
               <span className="inline-block w-12 h-px mr-4 -mt-px bg-gray-500 group-hover:w-24 group-hover:bg-gray-900 dark:group-hover:bg-white transition-all duration-300 ease-in-out" />
-              Contact
+              About
             </a>
           </Link>
         </li>
