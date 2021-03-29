@@ -9,8 +9,7 @@ export function Intro() {
         <p className="mt-4 md:mt-10 text-gray-500 dark:text-gray-400 lg:mt-12 xl:text-xl">
           I'm a Software Developer based in Jakarta (Indonesia), I mostly do
           back-end development but I like the design too. I design and code
-          beautifully simple things, and I love what I do. I can't shut up about
-          clean code, and also Gryfindor!
+          beautifully simple things, and I love what I do, also Gryffindor!
         </p>
       </div>
     </div>
