@@ -3,6 +3,7 @@ import Image from "next/image";
 import { parseISO, format } from "date-fns";
 import { NavigationSecondary } from "../Navigation";
 import Switcher from "../Switcher";
+import Footer from "../Footer";
 
 export function LayoutBlogDetail({ children, frontMatter }) {
   const {
@@ -25,7 +26,7 @@ export function LayoutBlogDetail({ children, frontMatter }) {
     >
       <Switcher />
       <NavigationSecondary />
-      <article className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
+      <article className="flex flex-col justify-center items-start px-8 mt-4 max-w-2xl mx-auto mb-16 w-full">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           {title}
         </h1>
@@ -52,6 +53,7 @@ export function LayoutBlogDetail({ children, frontMatter }) {
         </div>
         <div className="mt-8"></div>
       </article>
+      <Footer/>
     </Container>
   );
 }

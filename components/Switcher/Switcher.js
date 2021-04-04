@@ -14,7 +14,7 @@ export default function Switcher() {
   return (
     <>
       <div
-        className="fixed block right-1 md:right-3 lg:right-10 xl:right-14 w-4 animate-swing origin-top cursor-pointer"
+        className="fixed block right-1 md:right-3 lg:right-10 xl:right-14 w-4 animate-swing origin-top cursor-pointer z-20"
         onClick={() => changeTheme()}
       >
         <div
