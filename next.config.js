@@ -3,7 +3,12 @@ module.exports = {
     return [
       {
         source: "/live",
-        destination: "https://www.twitch.tv/itsnsomnia",
+        destination: "https://www.youtube.com/channel/UCreUvMLZ6xOaJ1DxyBa--AA",
+        permanent: true,
+      },
+      {
+        source: "/support",
+        destination: "https://saweria.co/whydnxx",
         permanent: true,
       },
     ];
